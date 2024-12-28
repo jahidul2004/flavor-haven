@@ -1,5 +1,6 @@
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
+import QuickMessage from "./quickMessage/QuickMessage";
 
 const Home = () => {
     return (
@@ -12,6 +13,10 @@ const Home = () => {
                 {/* Category */}
                 <Category></Category>
                 {/* Category end */}
+
+                {/* Quick Message */}
+                <QuickMessage></QuickMessage>
+                {/* Quick Message end */}
             </div>
         </div>
     );
