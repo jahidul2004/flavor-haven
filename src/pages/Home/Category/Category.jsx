@@ -12,7 +12,7 @@ import category5 from "../../../assets/home/slide5.jpg";
 
 const Category = () => {
     return (
-        <div>
+        <div className="my-10">
             <Swiper
                 slidesPerView={3}
                 spaceBetween={30}
@@ -23,29 +23,34 @@ const Category = () => {
                 className="mySwiper"
             >
                 <SwiperSlide>
-                    <div>
-                        <img className="w-full" src={category1} alt="" />
-                    </div>
+                    <img className="w-full" src={category1} alt="" />
+                    <h1 className="-mt-9 md:-mt-16 text-center text-xl md:text-3xl text-white">
+                        SALADS
+                    </h1>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div>
-                        <img className="w-full" src={category2} alt="" />
-                    </div>
+                    <img className="w-full" src={category2} alt="" />
+                    <h1 className="-mt-9 md:-mt-16 text-center text-xl md:text-3xl text-white">
+                        PIZZAS
+                    </h1>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div>
-                        <img className="w-full" src={category3} alt="" />
-                    </div>
+                    <img className="w-full" src={category3} alt="" />
+                    <h1 className="-mt-9 md:-mt-16 text-center text-xl md:text-3xl text-white">
+                        SOUPS
+                    </h1>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div>
-                        <img className="w-full" src={category4} alt="" />
-                    </div>
+                    <img className="w-full" src={category4} alt="" />
+                    <h1 className="-mt-9 md:-mt-16 text-center text-xl md:text-3xl text-white">
+                        DESERT
+                    </h1>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <div>
-                        <img className="w-full" src={category5} alt="" />
-                    </div>
+                    <img className="w-full" src={category5} alt="" />
+                    <h1 className="text-center text-xl md:text-3xl text-white">
+                        SALADS
+                    </h1>
                 </SwiperSlide>
             </Swiper>
         </div>
