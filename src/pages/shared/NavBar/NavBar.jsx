@@ -48,7 +48,7 @@ const NavBar = () => {
         </>
     );
     return (
-        <div className="navbar bg-[#000] text-white flex justify-between items-center">
+        <div className="navbar fixed z-10 bg-[#00000098] text-white flex justify-between items-center">
             <div>
                 <div className="dropdown">
                     <div
@@ -73,7 +73,7 @@ const NavBar = () => {
                     </div>
                     <ul
                         tabIndex={0}
-                        className="menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
+                        className="text-black menu menu-sm dropdown-content bg-base-100 rounded-box z-[1] mt-3 w-52 p-2 shadow"
                     >
                         {links}
                     </ul>
