@@ -8,7 +8,7 @@ import image5 from "../../../assets/home/05.png";
 import image6 from "../../../assets/home/06.png";
 const Banner = () => {
     return (
-        <div className="h-screen">
+        <div>
             <Carousel centerMode={true}>
                 <div>
                     <img src={image1} />
