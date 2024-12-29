@@ -2,6 +2,7 @@ import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
 import ChefRecommends from "../chefRecommends/ChefRecommends";
 import CallUs from "../contact/CallUs";
+import FromOurMenu from "../fromOurMenu/FromOurMenu";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import QuickMessage from "../quickMessage/QuickMessage";
 
@@ -32,6 +33,10 @@ const Home = () => {
                 {/* Chef recommends */}
                 <ChefRecommends></ChefRecommends>
                 {/* Chef recommends end */}
+
+                {/* From Our Menu */}
+                <FromOurMenu></FromOurMenu>
+                {/* From Our Menu end */}
             </div>
         </div>
     );
