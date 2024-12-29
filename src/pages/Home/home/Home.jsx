@@ -1,5 +1,6 @@
 import Banner from "../Banner/Banner";
 import Category from "../Category/Category";
+import ChefRecommends from "../chefRecommends/ChefRecommends";
 import CallUs from "../contact/CallUs";
 import PopularMenu from "../PopularMenu/PopularMenu";
 import QuickMessage from "../quickMessage/QuickMessage";
@@ -27,6 +28,10 @@ const Home = () => {
                 {/* Call Us */}
                 <CallUs></CallUs>
                 {/* Call Us end */}
+
+                {/* Chef recommends */}
+                <ChefRecommends></ChefRecommends>
+                {/* Chef recommends end */}
             </div>
         </div>
     );
