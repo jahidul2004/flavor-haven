@@ -20,7 +20,9 @@ const Footer = () => {
 
                 <div className="bg-[#111828] w-full md:w-1/2 p-10 flex justify-center items-center">
                     <nav className="text-center flex flex-col items-center">
-                        <h6 className="footer-title">Follow Us On</h6>
+                        <h6 className="text-2xl font-bold text-white">
+                            Follow Us On
+                        </h6>
                         <p className="font-semibold">
                             Join us on social media.
                         </p>
@@ -41,7 +43,7 @@ const Footer = () => {
             <aside className="text-white bg-black p-4 text-center">
                 <p>
                     Copyright © {new Date().getFullYear()} - All right reserved
-                    by ACME Industries Ltd
+                    by Flavor Haven
                 </p>
             </aside>
         </footer>
