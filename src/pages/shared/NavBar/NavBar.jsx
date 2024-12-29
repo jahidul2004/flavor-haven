@@ -1,5 +1,4 @@
 import { NavLink } from "react-router-dom";
-import profilePic from "../../../assets/profile.png";
 import { RiContactsLine, RiHome9Line } from "react-icons/ri";
 import { LuLayoutDashboard } from "react-icons/lu";
 import { CgMenuRound } from "react-icons/cg";
@@ -90,18 +89,18 @@ const NavBar = () => {
             <div className="hidden lg:flex">
                 <ul className="menu menu-horizontal px-1">{links}</ul>
 
-                <div className="flex gap-4 items-center justify-center">
+                <div className="flex border-2 p-[2px] border-[#bc8408] rounded-lg gap-4 items-center justify-center h-[50px] w-[50px]">
                     <img
-                        className="h-[50px] w-[50px] rounded-lg"
-                        src={profilePic}
+                        className="rounded-lg w-full h-full"
+                        src={"https://simgbb.com/avatar/M4MLWRbdJrf.jpg"}
                         alt=""
                     />
                 </div>
             </div>
-            <div className="flex md:hidden gap-4 items-center justify-center">
+            <div className="flex md:hidden border-2 p-[2px] border-[#bc8408] rounded-lg gap-4 items-center justify-center h-[50px] w-[50px]">
                 <img
-                    className="h-[50px] w-[50px] rounded-lg"
-                    src={profilePic}
+                    className="rounded-lg w-full h-full"
+                    src={"https://simgbb.com/avatar/M4MLWRbdJrf.jpg"}
                     alt=""
                 />
             </div>
