@@ -4,7 +4,7 @@ import image from "../../../assets/home/featured.jpg";
 
 const FromOurMenu = () => {
     return (
-        <div className="relative bg-[url('./src/assets/home/featured.jpg')] bg-cover bg-center w-full p-2 pb-12 my-10">
+        <div className="relative bg-[url('./src/assets/home/featured.jpg')] bg-fixed bg-cover bg-center w-full p-2 pb-12 my-10">
             {/* Overlay */}
             <div className="absolute inset-0 bg-black opacity-60"></div>
 
