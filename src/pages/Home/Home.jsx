@@ -1,5 +1,6 @@
 import Banner from "./Banner/Banner";
 import Category from "./Category/Category";
+import PopularMenu from "./PopularMenu/PopularMenu";
 import QuickMessage from "./quickMessage/QuickMessage";
 
 const Home = () => {
@@ -17,6 +18,10 @@ const Home = () => {
                 {/* Quick Message */}
                 <QuickMessage></QuickMessage>
                 {/* Quick Message end */}
+
+                {/* Popular Menu */}
+                <PopularMenu></PopularMenu>
+                {/* Popular Menu end */}
             </div>
         </div>
     );
