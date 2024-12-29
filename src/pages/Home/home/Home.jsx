@@ -1,7 +1,7 @@
-import Banner from "./Banner/Banner";
-import Category from "./Category/Category";
-import PopularMenu from "./PopularMenu/PopularMenu";
-import QuickMessage from "./quickMessage/QuickMessage";
+import Banner from "../Banner/Banner";
+import Category from "../Category/Category";
+import PopularMenu from "../PopularMenu/PopularMenu";
+import QuickMessage from "../quickMessage/QuickMessage";
 
 const Home = () => {
     return (
