@@ -1,7 +1,7 @@
 const QuickMessage = ({ imagePath, title, description, dark }) => {
     return (
         <div
-            className={`my-10 bg-cover bg-center h-96 flex items-center justify-center`}
+            className={`mb-10 bg-cover bg-center h-96 flex items-center justify-center`}
             style={{ backgroundImage: `url(${imagePath})` }}
         >
             <div
