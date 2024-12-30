@@ -27,7 +27,13 @@ const Home = () => {
                 {/* Category end */}
 
                 {/* Quick Message */}
-                <QuickMessage></QuickMessage>
+                <QuickMessage
+                    title={"Flavor Haven"}
+                    description={
+                        "Welcome to Flavor Gaven, where every bite tells a stor Our project aims to create a unique dining experience,blending delightful flavors with a warm and inviting ambiance."
+                    }
+                    imagePath={"./src/assets/home/chef-service.jpg"}
+                ></QuickMessage>
                 {/* Quick Message end */}
 
                 {/* Popular Menu */}
