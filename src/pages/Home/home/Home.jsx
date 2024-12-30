@@ -5,7 +5,7 @@ import ChefRecommends from "../chefRecommends/ChefRecommends";
 import CallUs from "../contact/CallUs";
 import FromOurMenu from "../fromOurMenu/FromOurMenu";
 import PopularMenu from "../PopularMenu/PopularMenu";
-import QuickMessage from "../quickMessage/QuickMessage";
+import QuickMessage from "../../../components/quickMessage/QuickMessage";
 import Testimonials from "../testimonials/Testimonials";
 
 const Home = () => {
