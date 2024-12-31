@@ -49,7 +49,7 @@ const Menu = () => {
                 </div>
                 <div className="flex justify-center items-center mt-6">
                     <button className="btn rounded-none border-2 border-[#bc8408] text-[#bc8408]">
-                        Order Your Favorite Food
+                        Order Your Favorite Food!
                     </button>
                 </div>
             </div>
