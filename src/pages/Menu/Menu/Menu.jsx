@@ -7,11 +7,6 @@ import MenuItemCard from "../../shared/menuItem/MenuItemCard";
 
 const Menu = () => {
     const [menus, setMenus] = useState([]);
-    const [todaysOffer, setTodaysOffer] = useState([]);
-
-    useEffect(() => {
-        setTodaysOffer(menus.filter((item) => item.category === "popular"));
-    }, []);
 
     useEffect(() => {
         axios.get("/public/menu.json").then((response) => {
@@ -40,12 +35,14 @@ const Menu = () => {
                     title={"Todays Offer"}
                 ></SectionTitle>
                 <div className="grid grid-cols-1 gap-8 md:grid-cols-2">
-                    {todaysOffer.map((offer) => (
-                        <MenuItemCard
-                            key={offer._id}
-                            item={offer}
-                        ></MenuItemCard>
-                    ))}
+                    {menus
+                        .filter((menu) => menu.category === "popular")
+                        .map((menu) => (
+                            <MenuItemCard
+                                key={menu._id}
+                                item={menu}
+                            ></MenuItemCard>
+                        ))}
                 </div>
                 <div className="flex justify-center items-center mt-6">
                     <button className="btn rounded-none border-2 border-[#bc8408] text-[#bc8408]">
