@@ -15,27 +15,15 @@ const NavBar = () => {
                 </NavLink>
             </li>
             <li>
-                <NavLink to={"/contactUs"}>
-                    <RiContactsLine />
-                    CONTACT US
-                </NavLink>
-            </li>
-            <li>
-                <NavLink to={"/dashboard"}>
-                    <LuLayoutDashboard />
-                    DASHBOARD
-                </NavLink>
-            </li>
-            <li>
                 <NavLink to={"/menu"}>
                     <CgMenuRound />
                     OUR MENU
                 </NavLink>
             </li>
             <li>
-                <NavLink to={"/shop"}>
+                <NavLink to={"/order"}>
                     <BsShop />
-                    OUR SHOP
+                    ORDER
                 </NavLink>
             </li>
             <li>
