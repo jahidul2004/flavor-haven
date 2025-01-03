@@ -27,15 +27,15 @@ const Menu = () => {
             <MenuCategory data={offered}></MenuCategory>
             {/* Todays Offer */}
 
-            {/* Todays Offer */}
+            {/* Dessert */}
             <QuickMessage
-                title={"Our Menu"}
+                title={"Desserts"}
                 description={"Would You Like to try a dish?"}
                 dark={true}
                 imagePath={"./src/assets/home/featured.jpg"}
             ></QuickMessage>
             <MenuCategory data={deserts}></MenuCategory>
-            {/* Todays Offer */}
+            {/* Dessert */}
         </div>
     );
 };
