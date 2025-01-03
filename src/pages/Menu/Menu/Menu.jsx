@@ -40,6 +40,11 @@ const Menu = () => {
                 imagePath={"./src/assets/home/featured.jpg"}
             ></QuickMessage>
             <MenuCategory data={deserts}></MenuCategory>
+            <div className="flex justify-center my-8">
+                <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
+                    Order Your Favorite Food
+                </button>
+            </div>
             {/* Dessert */}
         </div>
     );
