@@ -76,6 +76,21 @@ const Menu = () => {
                 </button>
             </div>
             {/* Salads */}
+
+            {/* Soups */}
+            <QuickMessage
+                title={"Soups"}
+                description={"Would You Like to try a dish?"}
+                dark={true}
+                imagePath={"./src/assets/menu/soup-bg.jpg"}
+            ></QuickMessage>
+            <MenuCategory data={soups}></MenuCategory>
+            <div className="flex justify-center my-8">
+                <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
+                    Order Your Favorite Food
+                </button>
+            </div>
+            {/* Soups */}
         </div>
     );
 };
