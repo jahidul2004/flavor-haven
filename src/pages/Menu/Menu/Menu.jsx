@@ -32,13 +32,12 @@ const Menu = () => {
             {/* Todays Offer */}
 
             {/* Dessert */}
-            <QuickMessage
+            <MenuCategory
                 title={"Desserts"}
                 description={"Would You Like to try a dish?"}
-                dark={true}
                 imagePath={"./src/assets/menu/dessert-bg.jpeg"}
-            ></QuickMessage>
-            <MenuCategory data={deserts}></MenuCategory>
+                data={deserts}
+            ></MenuCategory>
             <div className="flex justify-center my-8">
                 <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
                     Order Your Favorite Food
@@ -47,13 +46,12 @@ const Menu = () => {
             {/* Dessert */}
 
             {/* Pizza */}
-            <QuickMessage
+            <MenuCategory
                 title={"pizza"}
                 description={"Would You Like to try a dish?"}
-                dark={true}
                 imagePath={"./src/assets/menu/pizza-bg.jpg"}
-            ></QuickMessage>
-            <MenuCategory data={pizzas}></MenuCategory>
+                data={pizzas}
+            ></MenuCategory>
             <div className="flex justify-center my-8">
                 <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
                     Order Your Favorite Food
@@ -62,13 +60,12 @@ const Menu = () => {
             {/* Pizza */}
 
             {/* Salads */}
-            <QuickMessage
+            <MenuCategory
                 title={"Salads"}
                 description={"Would You Like to try a dish?"}
-                dark={true}
                 imagePath={"./src/assets/menu/salad-bg.jpg"}
-            ></QuickMessage>
-            <MenuCategory data={salads}></MenuCategory>
+                data={salads}
+            ></MenuCategory>
             <div className="flex justify-center my-8">
                 <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
                     Order Your Favorite Food
@@ -77,13 +74,12 @@ const Menu = () => {
             {/* Salads */}
 
             {/* Soups */}
-            <QuickMessage
+            <MenuCategory
                 title={"Soups"}
                 description={"Would You Like to try a dish?"}
-                dark={true}
                 imagePath={"./src/assets/menu/soup-bg.jpg"}
-            ></QuickMessage>
-            <MenuCategory data={soups}></MenuCategory>
+                data={soups}
+            ></MenuCategory>
             <div className="flex justify-center my-8">
                 <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
                     Order Your Favorite Food
