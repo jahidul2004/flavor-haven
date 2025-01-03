@@ -78,7 +78,7 @@ const NavBar = () => {
                     </ul>
                 </div>
                 <div className="flex flex-col items-center justify-center">
-                    <a className="text-xl md:text-3xl font-bold">
+                    <a className="text-xl md:text-3xl font-bold text-[#bc8408]">
                         FLAVOR HAVEN
                     </a>
                     <p className="tracking-[5px] md:tracking-[12px]">
