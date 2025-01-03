@@ -18,13 +18,12 @@ const Menu = () => {
             </Helmet>
 
             {/* Todays Offer */}
-            <QuickMessage
+            <MenuCategory
                 title={"Our Menu"}
                 description={"Would You Like to try a dish?"}
-                dark={true}
-                imagePath={"./src/assets/home/chef-service.jpg"}
-            ></QuickMessage>
-            <MenuCategory data={offered}></MenuCategory>
+                imagePath={"./src/assets/menu/banner3.jpg"}
+                data={offered}
+            ></MenuCategory>
             <div className="flex justify-center my-8">
                 <button className="btn border-b-2 rounded-full border-[#bc8408] text-[#bc8408]">
                     Order Your Favorite Food
