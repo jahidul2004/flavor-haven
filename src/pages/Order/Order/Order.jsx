@@ -1,7 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import QuickMessage from "../../../components/quickMessage/QuickMessage";
+import { Tab, Tabs, TabList, TabPanel } from "react-tabs";
+import "react-tabs/style/react-tabs.css";
 
 const Order = () => {
+    const [tabIndex, setTabIndex] = useState(0);
     return (
         <div>
             {/* Quick Message */}
@@ -13,25 +16,24 @@ const Order = () => {
             {/* Quick Message end */}
 
             {/* Tabs */}
-            <div
-                role="tablist"
-                className="tabs tabs-boxed w-full md:w-1/2 mx-auto my-5 border border-[#bc8408] rounded-lg text-[#bc8408] font-semibold"
-            >
-                <a role="tab" className="tab">
-                    SALAD
-                </a>
-                <a role="tab" className="tab tab-active">
-                    PIZZA
-                </a>
-                <a role="tab" className="tab">
-                    SOUPS
-                </a>
-                <a role="tab" className="tab">
-                    DESSERTS
-                </a>
-                <a role="tab" className="tab">
-                    DRINKS
-                </a>
+            <div className="w-full md:w-1/2 mx-auto my-5">
+                <Tabs
+                    defaultIndex={tabIndex}
+                    onSelect={(index) => setTabIndex(index)}
+                >
+                    <TabList>
+                        <Tab>SALAD</Tab>
+                        <Tab>PIZZA</Tab>
+                        <Tab>SOUPS</Tab>
+                        <Tab>DESSERT</Tab>
+                        <Tab>DRINKS</Tab>
+                    </TabList>
+                    <TabPanel></TabPanel>
+                    <TabPanel></TabPanel>
+                    <TabPanel></TabPanel>
+                    <TabPanel></TabPanel>
+                    <TabPanel></TabPanel>
+                </Tabs>
             </div>
             {/* Tabs end */}
         </div>
