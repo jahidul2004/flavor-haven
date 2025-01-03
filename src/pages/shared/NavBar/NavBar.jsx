@@ -47,7 +47,7 @@ const NavBar = () => {
         </>
     );
     return (
-        <div className="navbar md:fixed z-10 bg-[#111828] md:bg-[#00000098] text-white flex justify-between items-center">
+        <div className="navbar md:sticky md:top-0 z-10 bg-[#111828] md:bg-[#000000] text-white flex justify-between items-center">
             <div>
                 <div className="dropdown">
                     <div

@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 const QuickMessage = ({ imagePath, title, description, dark }) => {
     return (
         <Parallax
-            blur={5}
+            blur={2}
             bgImage={imagePath}
             bgImageAlt="the cat"
             strength={200}
@@ -14,8 +14,8 @@ const QuickMessage = ({ imagePath, title, description, dark }) => {
                 <div
                     className={`w-[90%] md:w-[60%] h-[80%] md:h-[60%] ${
                         dark
-                            ? "bg-[#00000067] text-white"
-                            : "bg-white text-black"
+                            ? "bg-white text-black"
+                            : "bg-[#0000007c] text-white"
                     } flex flex-col items-center justify-center p-4 text-center`}
                 >
                     <h1 className="uppercase text-2xl md:text-3xl font-bold mb-2">

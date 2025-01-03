@@ -1,13 +1,13 @@
 import QuickMessage from "../../../components/quickMessage/QuickMessage";
 import MenuItemCard from "../../shared/menuItem/MenuItemCard";
 
-const MenuCategory = ({ data, title, description, imagePath }) => {
+const MenuCategory = ({ data, title, description, imagePath, isDark }) => {
     return (
         <div>
             <QuickMessage
                 title={title}
                 description={description}
-                dark={true}
+                dark={isDark}
                 imagePath={imagePath}
             ></QuickMessage>
             <div className="grid grid-cols-1 gap-8 md:grid-cols-2 my-10 mx-5">
