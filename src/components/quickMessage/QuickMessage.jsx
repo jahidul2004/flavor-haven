@@ -18,7 +18,7 @@ const QuickMessage = ({ imagePath, title, description, dark }) => {
                             : "bg-[#0000007c] text-white"
                     } flex flex-col items-center justify-center p-4 text-center`}
                 >
-                    <h1 className="uppercase text-2xl md:text-3xl font-bold mb-2">
+                    <h1 className="uppercase text-2xl md:text-4xl lg:text-5xl font-bold mb-2">
                         {title}
                     </h1>
                     <p>{description}</p>
