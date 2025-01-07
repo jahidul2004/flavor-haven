@@ -1,9 +1,9 @@
 const RecommendedItemCard = ({ item }) => {
-    const { name, recipe, image } = item;
+    const { name, recipe, image, imgHeight } = item;
     return (
         <div className="bg-[#f1f1f1]">
             <div>
-                <img className="w-full h-[250px]" src={image} alt="" />
+                <img style={{height:imgHeight || '200px'}} className={`w-full`} src={image} alt="" />
             </div>
             <div className="p-4">
                 <div className="text-center my-3">

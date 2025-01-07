@@ -21,9 +21,12 @@ const ChefRecommends = () => {
                 subTitle={"Should Try"}
             ></SectionTitle>
             <div className="grid grid-cols-1 md:grid-cols-3 gap-4">
-                {
-                    recommendedItems.map((item) => <RecommendedItemCard key={item.id} item={item}></RecommendedItemCard>)
-                }
+                {recommendedItems.map((item) => (
+                    <RecommendedItemCard
+                        key={item.id}
+                        item={item}
+                    ></RecommendedItemCard>
+                ))}
             </div>
         </div>
     );
