@@ -1,0 +1,56 @@
+[33ma90be8d[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m login page added.
+[33mf32402d[m Dynamic tab wise card showing functionality added.
+[33mf9354c3[m Tabs updated.
+[33m4c0d703[m Tabs added.
+[33m0d4c002[m Quick message updated.
+[33m172f5ec[m Order page added.
+[33m04fd656[m Navbar updated (logo).
+[33mccf7ee8[m Popular menu section in home page updated.
+[33m1df7eee[m Parales dark light condition updated.
+[33m30220fa[m All menu category updated.
+[33m671ab21[m Quick message insrt into the menu Category component.
+[33m6a559d7[m Soups section added.
+[33m9512577[m Salads section added.
+[33m4d66a6f[m Pizza section added.
+[33mbcf7e88[m Dessert section button added.
+[33m961fb37[m Button added.
+[33mfd801f5[m Dessert section updated.
+[33m9d96b9d[m Desert and featured menu section added dynamically.
+[33m6eb81f0[m useMenu custom hook added.:
+[33m207ceba[m Menu category component added.
+[33m07a9df7[m Paralex added.
+[33m9403c86[m Menu section updated.
+[33m06ab4b4[m Menu section updated.
+[33m0c83d3d[m Button updated.
+[33m93d7f05[m Todays offer section added.
+[33m580fbc5[m Menu banner added.
+[33m3e84145[m Quick message component updated.
+[33m54f01a4[m Quick Message section updated.
+[33m81267c2[m Quick message section updated.
+[33m3702666[m Helmet Added.
+[33m3e4d7a8[m Testimonials section added.
+[33m12356b9[m Footer updated.
+[33m61a778f[m Navbar updated.
+[33mbb33337[m Paralex added.
+[33md53b178[m Json data updated.
+[33m35bfea6[m From our menu section compleate.
+[33m3b736c7[m From our menu somponent added.
+[33md503224[m Chef Recommended section compleate.
+[33m0218fcc[m Chef recommends component added.
+[33md15612c[m Call us section added.
+[33mac72c02[m View all menu button added.
+[33m4a1e4cf[m Menu card implemented.
+[33m7d8b07a[m Home component updated.
+[33mb21e1a8[m Data load from json file and filter functionality added.
+[33mc07da6d[m Popular menu section added.
+[33m4439a1f[m Fav Icon updated.
+[33ma98fc1a[m Title updated.
+[33m1267f98[m Quick message section added.
+[33m69626d7[m Section title component added and Category section updated.
+[33m2720bcc[m Category section added.
+[33m4c40d96[m Category show off section added.
+[33m9ed9cc0[m Banner added.
+[33m219f15d[m Navbar updated.
+[33mf5100f6[m Navbar added.
+[33m7ec734c[m Footer added.
+[33mdde1caf[m Initial project and layout setup compleate.
