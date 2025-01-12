@@ -4,6 +4,7 @@ import { LuLayoutDashboard } from "react-icons/lu";
 import { CgMenuRound } from "react-icons/cg";
 import { BsShop } from "react-icons/bs";
 import { LiaSignOutAltSolid } from "react-icons/lia";
+import { AiOutlineLogin } from "react-icons/ai";
 
 const NavBar = () => {
     const links = (
@@ -24,6 +25,12 @@ const NavBar = () => {
                 <NavLink to={"/order"}>
                     <BsShop />
                     ORDER
+                </NavLink>
+            </li>
+            <li>
+                <NavLink to={"/login"}>
+                    <AiOutlineLogin />
+                    LOGIN
                 </NavLink>
             </li>
             <li>
